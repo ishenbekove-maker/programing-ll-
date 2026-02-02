@@ -1,11 +1,12 @@
-import UserInfo from "./components/UserInfo";
+import Header from "./components/Header";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h1>Данные из Redux</h1>
-      <UserInfo />
-    </div>
+    <>
+      <Header />
+      <h1>Ishenbekov Erkin  </h1>
+    </>
   );
 }
 

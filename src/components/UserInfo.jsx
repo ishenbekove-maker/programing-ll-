@@ -4,11 +4,12 @@ const UserInfo = () => {
   const user = useSelector((state) => state.user);
 
   return (
-    <div>
-      <p>Имя: {user.name}</p>
-      <p>Возраст: {user.age}</p>
-      <p>Группа: {user.group}</p>
-    </div>
+   <section className="services">
+  <div className="card">💡 Идеи</div>
+  <div className="card">⚙️ Разработка</div>
+  <div className="card">📈 Маркетинг</div>
+</section>
+
   );
 };
 
